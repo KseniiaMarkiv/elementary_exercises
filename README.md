@@ -1,5 +1,6 @@
 ## These exercises are for elementary level and beginners.
 *All materials taken from The Odin Project Ruby Exercises.* [Odin courses link](https://www.theodinproject.com/paths)
+
 *All exercises I completed in the terminal using the command line.*
 
 <br>
