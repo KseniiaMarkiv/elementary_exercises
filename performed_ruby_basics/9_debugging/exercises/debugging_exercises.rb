@@ -40,10 +40,14 @@ end
 def isogram?(string)
   original_length = string.length
   string_array = string.downcase.chars
-  unique_length = string_array.length
+    p string_array
+  unique_length = string_array.uniq.length
+    p unique_length
   original_length == unique_length
 end
-isogram?("Odinn")
+p isogram?("Odinn") #=> false
+p isogram?("Odin") #=> true
+p isogram?("hello") #=> false
 
 def correct_isogram? string
   string_array = string.downcase.chars
